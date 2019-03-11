@@ -2,7 +2,7 @@
     "project_name": "Rvit Example",
   , "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
   , "license":      "GPLv3"
-  , "license_long": '{% if rvit_template.license == "GPLv3" %} "License :: OSI Approved :: GNU General Public License v3 (GPLv3)" {% else %} "License :: Unknown" {% endif %}'
+  , "license_long": ""
   , "author_name":  ""
   , "version":      "0.1"
 }
