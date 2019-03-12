@@ -17,8 +17,6 @@ setup(
     url='',
     author='{{cookiecutter.author_name}}',
     author_email='',
-    # packages=find_packages('src', exclude=['ez_setup']),
-    # package_dir={'': 'src'},
     namespace_packages=['{{cookiecutter.project_slug}}'],
     license='{{cookiecutter.license}}',
     packages=['{{cookiecutter.project_slug}}'],
