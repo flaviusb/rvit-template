@@ -17,7 +17,7 @@ setup(
     url='',
     author='{{cookiecutter.author_name}}',
     author_email='',
-    namespace_packages=['{{cookiecutter.project_slug}}'],
+    #namespace_packages=['{{cookiecutter.project_slug}}'],
     license='{{cookiecutter.license}}',
     packages=['{{cookiecutter.project_slug}}'],
     install_requires=[
