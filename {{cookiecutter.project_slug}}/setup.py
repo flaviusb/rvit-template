@@ -28,6 +28,11 @@ setup(
         'numpy',
         'pygame',
     ],
+    entry_points={
+        'gui_scripts': [
+            '{{cookiecutter.project_slug}} = {{cookiecutter.project_slug}}:start',
+        ]
+    },
     include_package_data=True,
     zip_safe=False,
 )
