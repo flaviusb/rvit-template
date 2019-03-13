@@ -1,2 +1,4 @@
+from rvit import *
+
 def start():
-    pass
+    activate()
