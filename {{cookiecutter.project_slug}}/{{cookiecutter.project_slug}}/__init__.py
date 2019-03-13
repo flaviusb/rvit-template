@@ -1,4 +1,4 @@
-from rvit import *
+from rvit.rvit import *
 
 def start():
     activate()
