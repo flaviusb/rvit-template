@@ -21,7 +21,7 @@ setup(
     license='{{cookiecutter.license}}',
     packages=['{{cookiecutter.project_slug}}'],
     install_requires=[
-        'rvit @ git+https://github.com/flaviusb/rvit',
+        'rvit @ git+https://github.com/flaviusb/rvit.git@widgets',
         'kivy @ git+https://github.com/flaviusb/kivy.git@change_check_for_cython',
         'cython',
         'jinja2',
