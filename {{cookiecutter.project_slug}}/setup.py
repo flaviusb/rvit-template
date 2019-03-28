@@ -22,7 +22,7 @@ setup(
     packages=['{{cookiecutter.project_slug}}'],
     install_requires=[
         'rvit @ git+https://github.com/flaviusb/rvit.git@widgets',
-        'kivy @ git+https://github.com/flaviusb/kivy.git@change_check_for_cython',
+        'kivy @ git+https://github.com/kivy/kivy.git',
         'cython',
         'jinja2',
         'numpy',
