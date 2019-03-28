@@ -38,7 +38,7 @@ class RvitApp(App):
     def build(self):
         # self.model = Model()
         # return self.model
-        sk_kv = pkg_resources.resource_string(__name__, "sk.kv").decode("utf-8")
+        sk_kv = bytes(pkg_resources.resource_string(__name__, "sk.kv"), 'utf-8') #.decode("utf-8")
         return Builder.load_string(sk_kv, filename='sk.kv')
 
     def on_stop(self):
